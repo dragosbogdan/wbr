@@ -8,7 +8,7 @@ body {
   direction: ltr;
   display: block;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 2em; /* was 14px */
   height: 636px;
   line-height: 18px;
   margin-bottom: 0px;
@@ -177,4 +177,39 @@ table.stats small {
 
 table.stats td:first-child {
   padding-left: 18px;
+}
+
+.masthead-intro,
+.masthead-heading {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  text-align: center;
+}
+
+.masthead-heading {
+  margin-bottom: 0.1em;
+  color:red;
+}
+
+.masthead-intro {
+  margin-top: -0.2em;
+}
+
+.info h1 {
+  text-align: center;
+}
+
+.info-container {
+  text-align:center;
+}
+
+.info {
+  vertical-align:top;
+  display:inline-block;
+  width: 30%;
+  padding-left: 30px;
+  box-sizing:border-box;
 }
